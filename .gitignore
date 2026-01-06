@@ -1,0 +1,14 @@
+# build output
+/build/
+/out/
+
+# Visual Studio / MSVC junk
+.vs/
+*.user
+*.suo
+
+# CMake local cache variants (Just in case)
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake

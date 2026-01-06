@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "ninja-msvc",
+      "displayName": "Ninja (MSVC + external vcpkg)",
+      "generator": "Ninja",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_TOOLCHAIN_FILE": "C:/workspace/tools/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      }
+    }
+  ]
+}
