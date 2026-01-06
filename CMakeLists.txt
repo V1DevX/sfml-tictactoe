@@ -8,6 +8,7 @@ add_executable(main
   src/main.cpp
   src/App.cpp
   src/Board.cpp
+  src/Game.cpp
 )
 
 find_package(SFML COMPONENTS Graphics Window System CONFIG REQUIRED)
