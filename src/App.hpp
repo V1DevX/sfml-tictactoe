@@ -1,6 +1,7 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
+#include "Game.hpp"
 
 class App {
 public:
@@ -15,4 +16,6 @@ private:
   sf::RenderWindow window;
   sf::Clock frameClock;
   bool paused = false;
+
+  Game game;
 };
